@@ -1,2 +1,2 @@
-# Django Authentication Course 
-## by <a href="http://www.subux.uz">SubUx</a>
+# Django Authentication
+## by <h1> Kozimov </h1>
