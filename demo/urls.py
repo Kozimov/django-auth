@@ -7,6 +7,7 @@ from core.views import home, SignupView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name="home"),
+    path('accounts/', include('allauth.urls')),
     path('signup', SignupView.as_view(), name="signup"),
     path('accounts/', include('django.contrib.auth.urls'))
 ]
